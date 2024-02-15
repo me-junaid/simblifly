@@ -1,0 +1,13 @@
+:root{
+  --primary-color:black;
+  --secondary-color:white;
+  --subject-color:rgb(20, 20, 20);
+}
+
+
+
+.dark-theme{
+  --primary-color:rgb(242, 242, 242);
+  --secondary-color:rgb(0, 0, 0);
+  --subject-color: white;
+}

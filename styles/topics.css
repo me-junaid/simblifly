@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.main-topic{
+  flex-grow: 1;
+  text-align: center;
+  margin: 1px 0.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  background-color: var(--subject-color);
+  border-style: solid;
+  border-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 5px;
+  border-color: rgba(255, 0, 0, 0.301);
+  font-weight: bolder;
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.topics{
+  flex-grow: 1;
+  text-align: center;
+  margin: 1px 0;
+  padding: 0;
+  background-color: var(--subject-color);
+  border-style: solid;
+  border-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 5px;
+  border-color: var(--primary-color);
+  transition: 0.5s;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.topics p{
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.topics:hover{
+  border-radius: 10px;
+  border-color: rgb(122, 122, 122);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+
+}
+
+.unit{
+  background-color: var(--primary-color);
+  border-style: solid;
+  border-color: rgb(38, 38, 38);
+  border-width: 1px;
+  margin: 10px;
+  border-bottom-width: 6px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3px 0px;
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+.p-unit{
+  display: inline-block;
+  font-size: 17px;
+}
+
+@media screen and (max-width:430px){
+  .topics p{
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Nunito', sans-serif;
+  }
+   
+  .container{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .main-topic{
+    font-size: 13px;
+  }
+  .unit{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
