@@ -379,7 +379,7 @@ export const DateExtension = {
               opacity: 1; /* Make the button fully opaque when it's enabled */
             }
           </style>
-          <label for="date">Select your date/time</label><br>
+          <label for="date">Select your date</label><br>
           <div class="meeting"><input type="date" id="meeting" name="meeting" value="" min="${minDateString}" max="${maxDateString}" /></div><br>
           <input type="submit" id="submit" class="submit" value="Submit" disabled="disabled">
           `
