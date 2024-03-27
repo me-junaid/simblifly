@@ -321,9 +321,9 @@ export const DateExtension = {
     // Get current date and time
     let currentDate = new Date()
     let minDate = new Date()
-    minDate.setMonth(currentDate.getMonth() - 1)
+    minDate.setMonth(currentDate.getMonth())
     let maxDate = new Date()
-    maxDate.setMonth(currentDate.getMonth() + 2)
+    maxDate.setMonth(currentDate.getMonth() + 1)
 
     // Convert to ISO string and remove seconds and milliseconds
     let minDateString = minDate.toISOString().slice(0, 16)
@@ -380,7 +380,7 @@ export const DateExtension = {
             }
           </style>
           <label for="date">Select your date/time</label><br>
-          <div class="meeting"><input type="datetime-local" id="meeting" name="meeting" value="" min="${minDateString}" max="${maxDateString}" /></div><br>
+          <div class="meeting"><input type="date" id="meeting" name="meeting" value="" min="${minDateString}" max="${maxDateString}" /></div><br>
           <input type="submit" id="submit" class="submit" value="Submit" disabled="disabled">
           `
 
