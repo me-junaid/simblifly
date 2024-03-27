@@ -335,7 +335,7 @@ export const DateExtension = {
               font-size: 0.8em;
               color: #888;
             }
-            input[type="date"]::-webkit-calendar-picker-indicator {
+            input[type="datetime-local"]::-webkit-calendar-picker-indicator {
                 border: none;
                 background: transparent;
                 border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
@@ -380,7 +380,7 @@ export const DateExtension = {
             }
           </style>
           <label for="date">Select your date</label><br>
-          <div class="meeting"><input type="date" id="meeting" name="meeting" value="" min="${minDateString}" max="${maxDateString}" /></div><br>
+          <div class="meeting"><input type="datetime-local" id="meeting" name="meeting" value="" min="${minDateString}" max="${maxDateString}" /></div><br>
           <input type="submit" id="submit" class="submit" value="Submit" disabled="disabled">
           `
 
