@@ -335,7 +335,7 @@ export const DateExtension = {
               font-size: 0.8em;
               color: #888;
             }
-            input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+            input[type="date"]::-webkit-calendar-picker-indicator {
                 border: none;
                 background: transparent;
                 border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
