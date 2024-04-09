@@ -7,23 +7,6 @@
   width: 0;
 }
 
-/* Main chat container */
-.vfrc-container {
-  background-color: #1a1a1a; /* Dark background */
-  color: #ffffff; /* White text color */
-}
-
-/* Chat message bubbles */
-.vfrc-messages-bubble {
-  background-color: #333333; /* Darker background for message bubbles */
-  color: #ffffff; /* White text color for messages */
-}
-
-/* User message bubbles */
-.vfrc-messages-bubble-user {
-  background-color: #4a4a4a; /* Slightly lighter background for user messages */
-}
-
 .vfrc-carousel {
   background-color: #000000;
   color: white;
@@ -43,7 +26,6 @@
 .vfrc-input {
   background-color: black; /* Dark background for input field */
   color: white; /* White text color for input */
-  border: none; /* Remove default border */
 }
 
 /* Send button */
