@@ -24,6 +24,12 @@
   background-color: #4a4a4a; /* Slightly lighter background for user messages */
 }
 
+.vfrc-carousel {
+  background-color: #000000;
+  color: white;
+  border-color: #0a84ff;
+}
+
 /* Buttons */
 .vfrc-button {
   background-color: #000000; /* Bright color for buttons to stand out */
