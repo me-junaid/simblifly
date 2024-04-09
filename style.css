@@ -3,6 +3,10 @@
   color:white;
 }
 
+.vfrc-chat::-webkit-scrollbar{
+  width: 0;
+}
+
 /* Main chat container */
 .vfrc-container {
   background-color: #1a1a1a; /* Dark background */
