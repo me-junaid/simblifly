@@ -23,8 +23,8 @@
 
 /* Input field */
 .vfrc-input {
-  background-color: #262626; /* Dark background for input field */
-  color: #ffffff; /* White text color for input */
+  background-color: black; /* Dark background for input field */
+  color: white; /* White text color for input */
   border: none; /* Remove default border */
 }
 
