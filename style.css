@@ -1,0 +1,34 @@
+/* Main chat container */
+.vfrc-container {
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff; /* White text color */
+}
+
+/* Chat message bubbles */
+.vfrc-messages-bubble {
+  background-color: #333333; /* Darker background for message bubbles */
+  color: #ffffff; /* White text color for messages */
+}
+
+/* User message bubbles */
+.vfrc-messages-bubble-user {
+  background-color: #4a4a4a; /* Slightly lighter background for user messages */
+}
+
+/* Buttons */
+.vfrc-button {
+  background-color: #0a84ff; /* Bright color for buttons to stand out */
+  color: #ffffff; /* White text color for buttons */
+}
+
+/* Input field */
+.vfrc-input {
+  background-color: #262626; /* Dark background for input field */
+  color: #ffffff; /* White text color for input */
+  border: none; /* Remove default border */
+}
+
+/* Send button */
+.vfrc-send-button {
+  color: #0a84ff; /* Use the same bright color as buttons for consistency */
+}
