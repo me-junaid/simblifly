@@ -13,7 +13,9 @@
   border-color: #0a84ff;
 }
 
-
+.vfrc-assistant-info--title {
+  color: white;
+}
 
 /* Buttons */
 .vfrc-button {
