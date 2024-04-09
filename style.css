@@ -30,6 +30,10 @@
   border-color: blue;/* White text color for buttons */
 }
 
+.vfrc-button--primary{
+  background-color: black;
+}
+
 /* Input field */
 .vfrc-input {
   background-color: black; /* Dark background for input field */
