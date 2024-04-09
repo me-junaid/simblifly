@@ -1,3 +1,8 @@
+.vfrc-chat {
+  background-color: black;
+  color:white;
+}
+
 /* Main chat container */
 .vfrc-container {
   background-color: #1a1a1a; /* Dark background */
