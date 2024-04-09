@@ -3,7 +3,7 @@
   color:white;
 }
 
-.vfrc-chat::-webkit-scrollbar{
+*::-webkit-scrollbar{
   width: 0;
 }
 
@@ -26,8 +26,11 @@
 
 /* Buttons */
 .vfrc-button {
-  background-color: #0a84ff; /* Bright color for buttons to stand out */
-  color: #ffffff; /* White text color for buttons */
+  background-color: #000000; /* Bright color for buttons to stand out */
+  color: #ffffff; 
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;/* White text color for buttons */
 }
 
 /* Input field */
