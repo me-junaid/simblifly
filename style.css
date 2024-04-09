@@ -9,11 +9,19 @@
 
 .vfrc-card--content {
   background-color: black;
-  color: white;
+  border-color: #0a84ff;
 }
 
 .vfrc-card--header {
   color: white;
+}
+
+.vfrc-carousel--button {
+  color: white;
+  background-color: #000000;
+  border-color: #0a84ff;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .vfrc-carousel {
