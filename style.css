@@ -50,7 +50,9 @@
   Customize the layout and display of the chat body, and the conversation's metadata
 */
 
-/* .vfrc-chat {} */
+.vfrc-chat {
+  background-color: blue;
+}
 
 /* .vfrc-chat--dialog {} */
 
