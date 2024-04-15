@@ -1,0 +1,21 @@
+/* Main chat container */
+.voiceflow-chat {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+}
+
+/* Chat launcher button */
+.vfrc-launcher {
+  background-color: #4a4a4a;
+}
+
+/* Chat overlay mode */
+.vfrc-chat--overlay {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* Prompt messages in the chat */
+.vfrc-prompt {
+  color: #4a4a4a;
+}
